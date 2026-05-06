@@ -136,3 +136,11 @@ h2 {
         justify-content: center;
     }
 }
+
+.content-definition {
+    display : none;
+}
+
+.open .content-definition {
+    display : block;
+}
