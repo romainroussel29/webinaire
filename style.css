@@ -60,9 +60,10 @@ section#concepts, #languages, #tools {
 
 .title-definition h4 {
     margin: 0;
+    font-weight: 400;
 }
 
-.flex-languages {
+.languages-content {
     display: flex;
     gap: 16px;
 }
@@ -71,6 +72,17 @@ section#concepts, #languages, #tools {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.language-title img {
+    max-width: 51px;
+    max-height: 51px;
+}
+
+#languages .card {
+    width: 228px;
+    box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 #tools .card {
@@ -126,7 +138,7 @@ h2 {
         box-sizing: border-box;
     }
 
-    .flex-languages {
+    .languages-content {
         flex-wrap: wrap;
     }
 
@@ -138,9 +150,17 @@ h2 {
 }
 
 .content-definition {
-    display : none;
+    display: none;
+    font-size: 14px;
 }
 
 .open .content-definition {
-    display : block;
+    display: block;
+}
+
+.slider-arrows {
+    display: flex;
+    justify-content: center;
+    gap : 16px;
+    margin-top: 16px;
 }
